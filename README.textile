@@ -9,6 +9,7 @@ This product features:
 h2. Graphical modelers
 
 h3. Database Designer
+
 Database Designer is a graphical modeler to define or edit relational tables and relations. It's a simplified version of the Merise language.
 It is composed of the MPD diagram (Data Physical Model) to specify the design of your schema. The MLD (Data Logical Model) is simplified by using logical types instead of database vendor specific types. For the MCD (Data Conceptual Model), you can use the Entity Designer.
 You can define:
