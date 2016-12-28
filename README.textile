@@ -59,7 +59,7 @@ This module uses a dedicated Cinematic metamodel and implements the following di
 * UI Structure
 * Layers to activate View Containers or Flow Events
 
-!images/cinematic1.png!
+!images/cinematic1.jpg!
 
 h3. SOA Designer
 
