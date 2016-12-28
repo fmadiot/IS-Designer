@@ -23,6 +23,8 @@ You can define:
 * Primary and Foreign Keys
 * Etc.
 
+!images/database1.png!
+
 h3. Entity Designer
 
 Entity Designer allows the modeling of business systems by focusing on the main issue: the modeling of data entities.
@@ -30,6 +32,8 @@ This module is particularly well suited for modeling JavaEE persistent entities.
 This module uses a dedicated Entity metamodel and implements the following diagrams:
 * Block Hierarchy
 * Entity Diagam
+
+!images/entity1.png!
 
 h3. Graal Designer
 
@@ -44,6 +48,8 @@ This module uses a dedicated Graal metamodel and implements the following diagra
 * User stories
 * Layers to indentify tasks related to selected user stories
 
+!images/graal1.png!
+
 h3. Cinematic Designer
 
 Cinematic Designer allows the modeling of UI navigation by focusing on the description of Scenario, Flow, Transitions, Actions / Events, and the content of each screens with Widgets.
@@ -52,6 +58,8 @@ This module uses a dedicated Cinematic metamodel and implements the following di
 * Flow Diagram
 * UI Structure
 * Layers to activate View Containers or Flow Events
+
+!images/cinematic1.png!
 
 h3. SOA Designer
 
@@ -62,9 +70,13 @@ This module uses a dedicated SOA metamodel and implements the following diagrams
 * DTO View
 * DTO / Entity Binding
 
+!images/soa1.png!
+
 h3. Requirement Designer
 
 Requirement Designer allows you to manage your requirements thanks to a graphical language. These requirements can be linked to any EMF Object.
+
+!images/requirement1.png!
 
 h2. Code generators
 
@@ -79,6 +91,8 @@ You can choose which layers to generate:
 * UI Cinematic: navigation between screens and event behavior
 * Service: complex or simple business service
 * Data: store and manage data from a datasource (usualy a database)
+
+!images/generator1.png!
 
 These generators can also generate unit tests (based on JUnit) and brige frameworks (example: between Spring and Hibernate).
 
