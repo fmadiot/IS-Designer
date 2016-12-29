@@ -6,7 +6,7 @@ This product features:
 * Graphical modelers (SOA, Entity, etc.) fully integrated to Eclipse,
 * Code generators (Struts, EJB, Web Services, DAO, Hibernate, etc.) provided along with their source code.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ibywhRUeH40?list=PLDCKzuGIN_Zxq2SavbeeXku4qpEAQ-z4f" frameborder="0" allowfullscreen></iframe>
+<p>xxx</p>
 
 h2. Graphical modelers
 
