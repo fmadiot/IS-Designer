@@ -46,6 +46,8 @@ This module uses a dedicated Graal metamodel and implements the following diagra
 
 !images/graal1.png!
 
+"Reference Documentation (french)":https://github.com/ObeoNetwork/InformationSystem/blob/master/models/graal/plugins/org.obeonetwork.graal.doc/doc/Obeo%20Network%20-%20Graal%20tooling.textile
+
 h2. Cinematic Designer
 
 Cinematic Designer allows the modeling of UI navigation by focusing on the description of Scenario, Flow, Transitions, Actions / Events, and the content of each screens with Widgets.
@@ -56,6 +58,8 @@ This module uses a dedicated Cinematic metamodel and implements the following di
 * Layers to activate View Containers or Flow Events
 
 !images/cinematic1.jpg!
+
+"Reference Documentation (french)":https://github.com/ObeoNetwork/InformationSystem/blob/master/models/cinematic/plugins/org.obeonetwork.dsl.cinematic.doc/doc/Obeo%20Network%20-%20Cinematic%20tooling.textile
 
 h2. SOA Designer
 
@@ -70,8 +74,10 @@ This module uses a dedicated SOA metamodel and implements the following diagrams
 
 "Reference Documentation (french)":https://github.com/ObeoNetwork/InformationSystem/blob/master/designs/soa/plugins/org.obeonetwork.dsl.soa.doc/doc/Obeo%20Network%20-%20SOA%20Designer.textile
 
-h2. Requirements Designer
+h2. Requirement Designer
 
 Requirement Designer allows you to manage your requirements thanks to a graphical language. These requirements can be linked to any EMF Object.
 
 !images/requirement1.png!
+
+"Reference Documentation (french)":https://github.com/ObeoNetwork/InformationSystem/blob/master/models/requirement/plugins/org.obeonetwork.dsl.requirement.doc/doc/Obeo%20Network%20-%20Requirements%20tooling.textile
