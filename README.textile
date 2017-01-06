@@ -29,6 +29,8 @@ This module uses a dedicated Entity metamodel and implements the following diagr
 
 !images/entity1.png!
 
+Reference Documentation (french): https://github.com/ObeoNetwork/InformationSystem/blob/master/designs/entity/plugins/org.obeonetwork.dsl.entity.doc/doc/Obeo%20Network%20-%20Entity%20Designer.textile
+
 h2. Graal Designer
 
 Graal Designer provides to analysts and agile product owners the ability to specify the users needs and their interactions with a system.
@@ -66,7 +68,7 @@ This module uses a dedicated SOA metamodel and implements the following diagrams
 
 !images/soa1.png!
 
-h2. Requirement Designer
+h2. Requirements Designer
 
 Requirement Designer allows you to manage your requirements thanks to a graphical language. These requirements can be linked to any EMF Object.
 
