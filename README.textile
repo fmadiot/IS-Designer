@@ -29,7 +29,7 @@ This module uses a dedicated Entity metamodel and implements the following diagr
 
 !images/entity1.png!
 
-Reference Documentation (french): https://github.com/ObeoNetwork/InformationSystem/blob/master/designs/entity/plugins/org.obeonetwork.dsl.entity.doc/doc/Obeo%20Network%20-%20Entity%20Designer.textile
+"Reference Documentation (french)":https://github.com/ObeoNetwork/InformationSystem/blob/master/designs/entity/plugins/org.obeonetwork.dsl.entity.doc/doc/Obeo%20Network%20-%20Entity%20Designer.textile
 
 h2. Graal Designer
 
