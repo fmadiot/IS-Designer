@@ -1,17 +1,11 @@
 h1. Information System Designer
 
-Information System Designer provides a set of tools to help you in the design and the development of applications. It brings a complete development environment based on and integrated to Eclipse. 
-
-This product features:
-* Graphical modelers (SOA, Entity, etc.) fully integrated to Eclipse,
-* Code generators (Struts, EJB, Web Services, DAO, Hibernate, etc.) provided along with their source code.
-
-h2. Graphical modelers
+Information System Designer provides a set of tools to help you in the design and the development of applications. It brings a complete development environment based on and integrated to Eclipse. This product features graphical modelers (Database, SOA, Entity, etc.) fully integrated to Eclipse. 
 
 Each of these modelers provides ready-to-use diagram editors that allow you to create, edit and visualize model elements.
 You can easily modify these editors with Obeo Designer to adapt each diagram to your needs or combine it to your own DSL. 
 
-h3. Database Designer
+h2. Database Designer
 
 Database Designer is a graphical modeler to define or edit relational tables and relations. It's a simplified version of the Merise language.
 It is composed of the MPD diagram (Data Physical Model) to specify the design of your schema. The MLD (Data Logical Model) is simplified by using logical types instead of database vendor specific types. For the MCD (Data Conceptual Model), you can use the Entity Designer.
@@ -25,7 +19,7 @@ You can define:
 
 !images/database1.png!
 
-h3. Entity Designer
+h2. Entity Designer
 
 Entity Designer allows the modeling of business systems by focusing on the main issue: the modeling of data entities.
 This module is particularly well suited for modeling JavaEE persistent entities.
@@ -35,7 +29,7 @@ This module uses a dedicated Entity metamodel and implements the following diagr
 
 !images/entity1.png!
 
-h3. Graal Designer
+h2. Graal Designer
 
 Graal Designer provides to analysts and agile product owners the ability to specify the users needs and their interactions with a system.
 The Graal methodology allows the modeling of business systems by focusing on the user needs and his interactions with the system. By analyzing the tasks a user should be able to perform, the Graal methodology allows the analyst to define tasks, use cases, user stories and interaction aspects a system should offer.
@@ -50,7 +44,7 @@ This module uses a dedicated Graal metamodel and implements the following diagra
 
 !images/graal1.png!
 
-h3. Cinematic Designer
+h2. Cinematic Designer
 
 Cinematic Designer allows the modeling of UI navigation by focusing on the description of Scenario, Flow, Transitions, Actions / Events, and the content of each screens with Widgets.
 This module uses a dedicated Cinematic metamodel and implements the following diagrams:
@@ -61,7 +55,7 @@ This module uses a dedicated Cinematic metamodel and implements the following di
 
 !images/cinematic1.jpg!
 
-h3. SOA Designer
+h2. SOA Designer
 
 SOA Designer allows the modeling of service layer by focusing on the description of Component, Service, Contract used in the SOA paradigm.
 This module uses a dedicated SOA metamodel and implements the following diagrams:
@@ -72,30 +66,8 @@ This module uses a dedicated SOA metamodel and implements the following diagrams
 
 !images/soa1.png!
 
-h3. Requirement Designer
+h2. Requirement Designer
 
 Requirement Designer allows you to manage your requirements thanks to a graphical language. These requirements can be linked to any EMF Object.
 
 !images/requirement1.png!
-
-h2. Code generators
-
-The generators apply on models created with:
-
-* Entity Designer: to define entities and their relationships
-* SOA Designer: to define components and services
-* Cinematic Designer: to define the pages and transitions between pages
-
-You can choose which layers to generate:
-* UI Presentation: JSP, Javascript with default CSS theme
-* UI Cinematic: navigation between screens and event behavior
-* Service: complex or simple business service
-* Data: store and manage data from a datasource (usualy a database)
-
-!images/generator1.png!
-
-These generators can also generate unit tests (based on JUnit) and brige frameworks (example: between Spring and Hibernate).
-
-Several properties are externalized from the generators to simplify architecture choices.
-
-Written with Acceleo, these generators can be refined and overridden to specialize them project after project. If you need heavy customisation, fork the EPL code to create your own Acceleo templates.
