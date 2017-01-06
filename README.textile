@@ -68,6 +68,8 @@ This module uses a dedicated SOA metamodel and implements the following diagrams
 
 !images/soa1.png!
 
+"Reference Documentation (french)":https://github.com/ObeoNetwork/InformationSystem/blob/master/designs/soa/plugins/org.obeonetwork.dsl.soa.doc/doc/Obeo%20Network%20-%20SOA%20Designer.textile
+
 h2. Requirements Designer
 
 Requirement Designer allows you to manage your requirements thanks to a graphical language. These requirements can be linked to any EMF Object.
